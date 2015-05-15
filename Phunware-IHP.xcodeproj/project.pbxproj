@@ -15,6 +15,7 @@
 		B6157E351B008A1000B7FDD6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6157E341B008A1000B7FDD6 /* Images.xcassets */; };
 		B6157E381B008A1000B7FDD6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6157E361B008A1000B7FDD6 /* LaunchScreen.xib */; };
 		B6157E441B008A1100B7FDD6 /* Phunware_IHPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6157E431B008A1100B7FDD6 /* Phunware_IHPTests.m */; };
+		B67E496B1B05990B004E09E2 /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B67E496A1B05990B004E09E2 /* CustomNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		B6157E3D1B008A1000B7FDD6 /* Phunware-IHPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Phunware-IHPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6157E421B008A1000B7FDD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6157E431B008A1100B7FDD6 /* Phunware_IHPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Phunware_IHPTests.m; sourceTree = "<group>"; };
+		B67E49691B05990B004E09E2 /* CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
+		B67E496A1B05990B004E09E2 /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 			children = (
 				B6157E281B008A1000B7FDD6 /* AppDelegate.h */,
 				B6157E291B008A1000B7FDD6 /* AppDelegate.m */,
+				B67E49691B05990B004E09E2 /* CustomNavigationController.h */,
+				B67E496A1B05990B004E09E2 /* CustomNavigationController.m */,
 				B6157E2B1B008A1000B7FDD6 /* MasterViewController.h */,
 				B6157E2C1B008A1000B7FDD6 /* MasterViewController.m */,
 				B6157E2E1B008A1000B7FDD6 /* DetailViewController.h */,
@@ -225,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6157E2A1B008A1000B7FDD6 /* AppDelegate.m in Sources */,
+				B67E496B1B05990B004E09E2 /* CustomNavigationController.m in Sources */,
 				B6157E2D1B008A1000B7FDD6 /* MasterViewController.m in Sources */,
 				B6157E271B008A1000B7FDD6 /* main.m in Sources */,
 				B6157E301B008A1000B7FDD6 /* DetailViewController.m in Sources */,
@@ -356,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Phunware-IHP/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -366,6 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Phunware-IHP/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -424,6 +432,7 @@
 				B6157E491B008A1100B7FDD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6157E4A1B008A1100B7FDD6 /* Build configuration list for PBXNativeTarget "Phunware-IHPTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +441,7 @@
 				B6157E4C1B008A1100B7FDD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
